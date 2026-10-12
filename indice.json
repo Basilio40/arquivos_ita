@@ -73,9 +73,9 @@
     {
       "caminho": "xlsx/carteira_mensal/Jul_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Jul_2026.xlsx",
-      "bytes": 6936,
-      "modificado": "2026-10-12 14:17",
-      "sha256": "252d9f483abb84db06705f9564341418d3cd415a12ab4080801910de1ee35909"
+      "bytes": 7045,
+      "modificado": "2026-10-12 14:56",
+      "sha256": "d82309bf4ab72ff4c20fac6bf1e1af41faf61ef3a1eb620a1fa491a53ab6eb2e"
     },
     {
       "caminho": "xlsx/carteira_mensal/Jun_2026.xlsx",
