@@ -100,14 +100,18 @@ def atualizar_indice():
     for nome in ARQUIVOS_APP:
         caminho = os.path.join(APP_DIR, nome)
         rel = f'app/{nome}'
-        sha = hashlib.sha256(open(caminho, 'rb').read()).hexdigest()
+        # Normaliza CRLF→LF: o repo armazena LF (autocrlf). No CI (Linux) é
+        # no-op; num run de teste no Windows alinha sha/bytes com o blob real
+        # e evita churn fantasma no índice.
+        conteudo = open(caminho, 'rb').read().replace(b'\r\n', b'\n')
+        sha = hashlib.sha256(conteudo).hexdigest()
         antiga = existentes.get(rel)
         if antiga and antiga.get('sha256') == sha:
             continue  # conteúdo igual → preserva entrada (e o mtime antigo)
         existentes[rel] = {
             'caminho': rel,
             'origem': 'scripts/gerar_app_json.py (GitHub Actions)',
-            'bytes': os.path.getsize(caminho),
+            'bytes': len(conteudo),
             'modificado': agora,
             'sha256': sha,
         }
