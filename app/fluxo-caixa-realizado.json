@@ -1,5 +1,10 @@
 [
   {
+    "mes": "Jan/26",
+    "entradas": 175048.62,
+    "saidas": 220927.05
+  },
+  {
     "mes": "Fev/26",
     "entradas": 579525.72,
     "saidas": 443362.17
@@ -20,8 +25,28 @@
     "saidas": 359549.85
   },
   {
+    "mes": "Jun/26",
+    "entradas": 391470.44,
+    "saidas": 285090.5
+  },
+  {
+    "mes": "Jul/26",
+    "entradas": 1033909.57,
+    "saidas": 656863.91
+  },
+  {
     "mes": "Ago/26",
     "entradas": 724335.81,
     "saidas": 855820.25
+  },
+  {
+    "mes": "Set/26",
+    "entradas": 595758.77,
+    "saidas": 437537.16
+  },
+  {
+    "mes": "Out/26",
+    "entradas": 4344.75,
+    "saidas": 185829.73
   }
 ]

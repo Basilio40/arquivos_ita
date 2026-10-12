@@ -10,9 +10,9 @@
     {
       "caminho": "app/dashboard.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 539394,
-      "modificado": "2026-10-12 18:48",
-      "sha256": "8203c01948106dd66f2ed59d35eaf4584330ad22ddd166aea16ffcfeb5cb4c9d"
+      "bytes": 539385,
+      "modificado": "2026-10-12 20:26",
+      "sha256": "58c6d929ec4842593abf904969a7e1f6ae7b343d9115ecac23756786988d600f"
     },
     {
       "caminho": "app/dre-details.json",
@@ -24,16 +24,16 @@
     {
       "caminho": "app/fluxo-caixa-previsao.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 79,
-      "modificado": "2026-10-12 16:38",
-      "sha256": "cb9d567b8ec701f94e5f99c462bfcd2e513c41b38cc033633009195f40135ea1"
+      "bytes": 849,
+      "modificado": "2026-10-12 20:26",
+      "sha256": "42818c366408561650f05f8ae4ac765ab0e7e67e1bd663a7bac1c58c916eaec6"
     },
     {
       "caminho": "app/fluxo-caixa-realizado.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 408,
-      "modificado": "2026-10-12 16:38",
-      "sha256": "3f1bdbba48513e8c244fd5b1b9f9fcc5a085a1c10a1501323a1e191a1d86f44e"
+      "bytes": 811,
+      "modificado": "2026-10-12 20:26",
+      "sha256": "d8bc312dfad7050dd2db7a353c6777d6d858024ee4c3346b155bf8663112efb8"
     },
     {
       "caminho": "app/projecao-contratos.json",
