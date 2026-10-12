@@ -1,0 +1,57 @@
+# Regenera os JSONs de app/ a partir dos .xlsx versionados neste repo.
+#
+# Dispara a cada push que mexa em xlsx/** (o commit do próprio app/ não
+# re-dispara — filtro de paths) e manualmente via workflow_dispatch.
+# O dashboard (dash_moema) lê app/*.json em raw.githubusercontent com cache
+# de 5 min: alguns minutos após o push os dados novos já estão no ar.
+name: gerar-app-json
+
+on:
+  push:
+    branches: [main]
+    paths: ['xlsx/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Nunca dois runs sobrepostos (o push diário das 08:00 pode coincidir com um
+# run manual); o mais novo espera, não cancela — dados não se perdem.
+concurrency:
+  group: gerar-app-json
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar openpyxl
+        run: pip install openpyxl
+
+      - name: Regenerar app/*.json
+        run: python scripts/gerar_app_json.py
+
+      - name: Commitar se mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain app/ indice.json)" ]; then
+            echo "Nada mudou — app/ já está em dia com os xlsx."
+            exit 0
+          fi
+          git add app/ indice.json
+          git commit -m "app: JSONs regenerados dos xlsx (CI) [skip ci]"
+          # Retry com rebase: pode concorrer com o push diário da máquina local.
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push falhou (tentativa $i) — rebase e tenta de novo"
+            git pull --rebase origin main
+          done
+          echo "ERRO: não conseguiu pushar após 3 tentativas"
+          exit 1

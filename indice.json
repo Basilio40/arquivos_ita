@@ -2,24 +2,24 @@
   "arquivos": [
     {
       "caminho": "app/comissoes.json",
-      "origem": "pro-dash-guide-main/src/data/comissoes.json",
-      "bytes": 14742,
-      "modificado": "2026-10-12 10:19",
-      "sha256": "d6b4b799acc8df41d07e8505f743bec4f412c00fc5daf3e855137b444d40d75e"
+      "origem": "scripts/gerar_app_json.py (GitHub Actions)",
+      "bytes": 14707,
+      "modificado": "2026-10-12 13:35",
+      "sha256": "ef71d71b7f55aa66e4ecebfe5543be1cd9baff317e60126ee110909967b70c7d"
     },
     {
       "caminho": "app/dashboard.json",
-      "origem": "pro-dash-guide-main/src/data/dashboard.json",
-      "bytes": 471390,
-      "modificado": "2026-10-12 10:19",
-      "sha256": "5763baa0d337c726958b9e820913dda0a00729bc171282aa41d3ef4b45fce124"
+      "origem": "scripts/gerar_app_json.py (GitHub Actions)",
+      "bytes": 539390,
+      "modificado": "2026-10-12 13:35",
+      "sha256": "0deee54d5cd5f2b4dd4149cc2f06aa19a9036ba0585b083a8af1a6b6b9f9dd1c"
     },
     {
       "caminho": "app/dre-details.json",
-      "origem": "pro-dash-guide-main/src/data/dre-details.json",
-      "bytes": 13821,
-      "modificado": "2026-10-12 10:19",
-      "sha256": "8760893193c6b54dd9a873511d41f564821d0db3214788cceeb4657cb4d3b7fa"
+      "origem": "scripts/gerar_app_json.py (GitHub Actions)",
+      "bytes": 15992,
+      "modificado": "2026-10-12 13:35",
+      "sha256": "f7d4e51a541009cd05ddd43b2024f91f5543f1bcad64ec5eb319f126bf2da1a8"
     },
     {
       "caminho": "app/fluxo-caixa-previsao.json",
@@ -37,10 +37,10 @@
     },
     {
       "caminho": "app/projecao-contratos.json",
-      "origem": "pro-dash-guide-main/src/data/projecao-contratos.json",
-      "bytes": 3437,
-      "modificado": "2026-10-12 10:19",
-      "sha256": "dde2e9d3de409579bf483d7ca34f0796409d2c6ee496a0a2329d3e6d9a7ede9b"
+      "origem": "scripts/gerar_app_json.py (GitHub Actions)",
+      "bytes": 3402,
+      "modificado": "2026-10-12 13:35",
+      "sha256": "06370d9c2496b66fededc3ba347df245bacdaecafacfd80a6d824b8f7c804a8e"
     },
     {
       "caminho": "xlsx/carteira_mensal/Abr_2026.xlsx",
@@ -99,18 +99,18 @@
       "sha256": "641a9e45db8a32340853f2751176ea24c65ffdca9b7b9fc1698c4a40cdbc99ae"
     },
     {
-      "caminho": "xlsx/contratos/latest.xlsx",
-      "origem": "loja_18314_MOEMA_CONTRATOS/relatorios_focco/Contratos505c67d6ac9545c29f67beb2c0ca31ce.xlsx",
-      "bytes": 33977,
-      "modificado": "2026-10-12 08:00",
-      "sha256": "9663aebd0ed05d716dc032ff6d4c91b4aae6de7f5f6350382199e005de265e92"
-    },
-    {
       "caminho": "xlsx/contratos/SET_2026.xlsx",
       "origem": "loja_18314_MOEMA_CONTRATOS/relatorios_focco/SET_2026.xlsx",
       "bytes": 33694,
       "modificado": "2026-09-20 17:08",
       "sha256": "5429d626514cc764f70c10ee489bafff5cfb44ef89c500866655e738fa224cd8"
+    },
+    {
+      "caminho": "xlsx/contratos/latest.xlsx",
+      "origem": "loja_18314_MOEMA_CONTRATOS/relatorios_focco/Contratos505c67d6ac9545c29f67beb2c0ca31ce.xlsx",
+      "bytes": 33977,
+      "modificado": "2026-10-12 08:00",
+      "sha256": "9663aebd0ed05d716dc032ff6d4c91b4aae6de7f5f6350382199e005de265e92"
     },
     {
       "caminho": "xlsx/dre/DRE_01_2026.xlsx",
