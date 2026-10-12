@@ -1,0 +1,754 @@
+{
+  "gerado_em": "2026-10-12 00:05:49",
+  "arquivos": [
+    {
+      "caminho": "app/comissoes.json",
+      "origem": "pro-dash-guide-main/src/data/comissoes.json",
+      "bytes": 14742,
+      "modificado": "2026-10-11 10:15",
+      "sha256": "564584e274d3a8ac69ea3908f8a022988106fe0c040aecf679f2c73397cd2345"
+    },
+    {
+      "caminho": "app/dashboard.json",
+      "origem": "pro-dash-guide-main/src/data/dashboard.json",
+      "bytes": 471390,
+      "modificado": "2026-10-11 10:15",
+      "sha256": "8578da7076ee6c50adb12657e44c9fc779700b264cd3fea56ec665ba71aac46d"
+    },
+    {
+      "caminho": "app/dre-details.json",
+      "origem": "pro-dash-guide-main/src/data/dre-details.json",
+      "bytes": 13821,
+      "modificado": "2026-10-11 10:15",
+      "sha256": "8760893193c6b54dd9a873511d41f564821d0db3214788cceeb4657cb4d3b7fa"
+    },
+    {
+      "caminho": "app/fluxo-caixa-previsao.json",
+      "origem": "pro-dash-guide-main/src/data/fluxo-caixa-previsao.json",
+      "bytes": 167,
+      "modificado": "2026-10-11 10:15",
+      "sha256": "f95fe455a5bed861a58f59502fbb45ebf2acdb00cf7807dcef8a99b31a0e437a"
+    },
+    {
+      "caminho": "app/fluxo-caixa-realizado.json",
+      "origem": "pro-dash-guide-main/src/data/fluxo-caixa-realizado.json",
+      "bytes": 435,
+      "modificado": "2026-10-11 10:15",
+      "sha256": "e06718ac9aff7dd979f9cab448e328534efbd585372c3418653ed9705f4a20b9"
+    },
+    {
+      "caminho": "app/projecao-contratos.json",
+      "origem": "pro-dash-guide-main/src/data/projecao-contratos.json",
+      "bytes": 3437,
+      "modificado": "2026-10-11 10:15",
+      "sha256": "61c7e6b4c1c157453f5f94f47bb2c97119f149387adcb4cd774429dec04a1817"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Abr_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Abr_2026.xlsx",
+      "bytes": 5940,
+      "modificado": "2026-08-31 12:21",
+      "sha256": "a16d0f7021bae11f75eb0505c513605f79024a14f374e2e60afd6efdc04b2eba"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Ago_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Ago_2026.xlsx",
+      "bytes": 6740,
+      "modificado": "2026-08-31 12:24",
+      "sha256": "4c97f50cd7bf0918c22516592a65fa2d564a8ca256a150a74e811759a9454982"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Fev_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Fev_2026.xlsx",
+      "bytes": 6535,
+      "modificado": "2026-08-31 12:19",
+      "sha256": "afcbc4cf69ce33d4bda132b1c485064320135e327ed545ada4d5c77202b4c1c2"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Jan_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Jan_2026.xlsx",
+      "bytes": 6644,
+      "modificado": "2026-08-31 12:19",
+      "sha256": "c252e590bebd3f3671cf24f6d6f291246be51a61ac317d829a5cd4780941f53e"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Jul_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Jul_2026.xlsx",
+      "bytes": 6946,
+      "modificado": "2026-08-31 12:23",
+      "sha256": "b5a5df6c6004a4a2abe234891e88e74d2567bcb8ba2edf8754dad33562cb70e4"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Jun_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Jun_2026.xlsx",
+      "bytes": 5996,
+      "modificado": "2026-08-31 12:22",
+      "sha256": "ed664111c2f62e2bad13266e757922b0b4ce4a0ffe6de17ba9c4061d84e0d88f"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Mai_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Mai_2026.xlsx",
+      "bytes": 7019,
+      "modificado": "2026-08-31 12:21",
+      "sha256": "5a44ee2b85758e19510d37e008bf9dae2f987e56519c072e962b8982e4a8ac1a"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Mar_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Mar_2026.xlsx",
+      "bytes": 6171,
+      "modificado": "2026-08-31 12:20",
+      "sha256": "641a9e45db8a32340853f2751176ea24c65ffdca9b7b9fc1698c4a40cdbc99ae"
+    },
+    {
+      "caminho": "xlsx/contratos/latest.xlsx",
+      "origem": "loja_18314_MOEMA_CONTRATOS/relatorios_focco/Contratosd50c1d8b356149d6b913614f0979c823.xlsx",
+      "bytes": 33977,
+      "modificado": "2026-10-11 08:00",
+      "sha256": "3e537655158b56b6ec9f77855d68f113dc6e914015590874f2a5fa96a380d723"
+    },
+    {
+      "caminho": "xlsx/contratos/SET_2026.xlsx",
+      "origem": "loja_18314_MOEMA_CONTRATOS/relatorios_focco/SET_2026.xlsx",
+      "bytes": 33694,
+      "modificado": "2026-09-20 17:08",
+      "sha256": "5429d626514cc764f70c10ee489bafff5cfb44ef89c500866655e738fa224cd8"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_01_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_01_2026.xlsx",
+      "bytes": 45849,
+      "modificado": "2026-10-11 08:03",
+      "sha256": "6a0d59dd823a5e64d157a72bc6dd0c8c1024a00cbfb2043ee0695badbfdbf07a"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_02_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_02_2026.xlsx",
+      "bytes": 42385,
+      "modificado": "2026-10-11 08:04",
+      "sha256": "05f42f69acb89029976d4121fa0025558ccee1d0cadd8df323dd010e8b0c2928"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_03_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_03_2026.xlsx",
+      "bytes": 44668,
+      "modificado": "2026-10-11 08:05",
+      "sha256": "72bfa3982ae6807b490dd149e609d795803facb205d3c2e2ce146c39a117299e"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_04_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_04_2026.xlsx",
+      "bytes": 36787,
+      "modificado": "2026-10-11 08:06",
+      "sha256": "1a6ed6797d01a5be6dcd3f1b693d3ad50ff854d96ecb654105ccd1db2d5c5ac5"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_05_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_05_2026.xlsx",
+      "bytes": 41233,
+      "modificado": "2026-10-11 08:07",
+      "sha256": "35c287b4bd44f2493b6c72509f7ccc3276df8c3bae4e9b69cdb6666b2fd3ab11"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_06_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_06_2026.xlsx",
+      "bytes": 34897,
+      "modificado": "2026-10-11 08:09",
+      "sha256": "785ad570de40714ffad55965d5826a4b300a6e2393c603d7e0866c79b0dd4d2d"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_07_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_07_2026.xlsx",
+      "bytes": 46352,
+      "modificado": "2026-10-11 08:10",
+      "sha256": "6e6008e41b1effb5cfaad899dc6dff8ba3623136bc339043bf4e2b9d06185aa4"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_08_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_08_2026.xlsx",
+      "bytes": 37221,
+      "modificado": "2026-10-11 08:11",
+      "sha256": "e03526322f9410971b6267ac4229f08a384e9081d07424b79ad4e30ce60e92c7"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_09_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_09_2026.xlsx",
+      "bytes": 36177,
+      "modificado": "2026-10-11 08:12",
+      "sha256": "bd1639f6c0d62329571741199e235e41fdef69a8c32122ff92d31613e3c00310"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_10_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_10_2026.xlsx",
+      "bytes": 20031,
+      "modificado": "2026-10-11 08:13",
+      "sha256": "dc79b40c579c4a9816e93cd01c62ff72e7b9b205a2f2fbedd9b14f83542ce944"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/previsao/Previsao_Ago_2027.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/previsao/Previsao_Ago_2027.xlsx",
+      "bytes": 4083,
+      "modificado": "2026-10-11 10:10",
+      "sha256": "e22f8712a285aaa0e3a898808e96ae4d1859131427c18c06f99b28b4d1b4589d"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/previsao/Previsao_Jan_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/previsao/Previsao_Jan_2026.xlsx",
+      "bytes": 6489,
+      "modificado": "2026-10-11 08:41",
+      "sha256": "904bd9f72bd827b0257236addf40d2e95dded0c488525473f70e5a36b75355e5"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/previsao/Previsao_Out_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/previsao/Previsao_Out_2026.xlsx",
+      "bytes": 8951,
+      "modificado": "2026-10-11 09:23",
+      "sha256": "99e54610f73104ed559996aa9fd8bbd1f79c94c68a341ce7e9b2e0d90fa111ab"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/previsao_latest.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/HifnFluxoDeCaixaPrevNewe441ffa76ded4edf882ec35e2ac54853.xlsx",
+      "bytes": 3981,
+      "modificado": "2026-10-11 10:10",
+      "sha256": "20e882b9f2b02e4ba36cf33cd6d0a4a48a9d5ce05bf731f15eff3f51681fbd46"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Abr_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Abr_2021.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:49",
+      "sha256": "eb32e2e64c42e110394f715358b904572da4a610dc6204297d7ffc94df26bbaa"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Ago_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Ago_2021.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:48",
+      "sha256": "45811a782663127cc3c13ea6599584447af9c4feafcd0ee16caf447842b4d201"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Dez_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Dez_2021.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:47",
+      "sha256": "39124542ddb68e4fa374809087c7203796b6579eb59f4ea88ca1952ff7f2ec7f"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Fev_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Fev_2021.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:49",
+      "sha256": "cd1befcfa698a3658b021fdac1322015164599ef9d5b01eba1172cf096902e6e"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Jan_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Jan_2021.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:49",
+      "sha256": "09cbc4664e3ca988fc71fd8e140ce955b26a8c3fe1f707ffb05ec3c31be8f13c"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Jul_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Jul_2021.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:48",
+      "sha256": "2e29b038b0b98d91ac710e4d05e405406d0c94155852e1a2cc7d0c2fb742071b"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Jun_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Jun_2021.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:48",
+      "sha256": "4048348bc14ab62e74582f4f09dfdf9c1a55e2847e4e62366272a42053e5e6e6"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Mai_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Mai_2021.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:49",
+      "sha256": "db19420e2d5e2b21fdc1a5af39c5391e1d8f78715cd14c35ac36b947cb5aa105"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Mar_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Mar_2021.xlsx",
+      "bytes": 4036,
+      "modificado": "2026-09-15 22:49",
+      "sha256": "2a5604224fc19667a10667e1d7531ccab2a8b0979cefbf40ada15782b0911b3d"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Nov_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Nov_2021.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:47",
+      "sha256": "da29fdb164cb6b0512d1c31cea42d328b19bec999761e687dc78c3d803a48451"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Out_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Out_2021.xlsx",
+      "bytes": 4036,
+      "modificado": "2026-09-15 22:48",
+      "sha256": "5e1db2d53a0424495319ea44c404651402a2d7e61ef982e4bf70df91ec182200"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2021/Realizado_Set_2021.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2021/Realizado_Set_2021.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:48",
+      "sha256": "167c7c595553d3d767a0407632af7144b1cede9156d03e769dfdd806887531a9"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Abr_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Abr_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:47",
+      "sha256": "b38b9b39eb37a1bdfb934a04960fed41e3d52afdee207d22529e412365e4f217"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Ago_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Ago_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:46",
+      "sha256": "7a8878f967dddb381f6f1279c285d7d22fa869e66d828f050bce74614ada8453"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Dez_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Dez_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:45",
+      "sha256": "cd81e4ea21c75bf08f13c6de768742a427cc7b01b73e688ecca593fce3986d25"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Fev_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Fev_2022.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:47",
+      "sha256": "879593db304613dcddfda9f78263622547bc23a0efea3b8d6af52f756007477a"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Jan_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Jan_2022.xlsx",
+      "bytes": 4036,
+      "modificado": "2026-09-15 22:47",
+      "sha256": "4f9df7b7a5ac85a78f0c3247823201897d04054c300f8c2ed19a337b60d46725"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Jul_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Jul_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:46",
+      "sha256": "e81bab83ee0175138e7e70f3b80f3c8e26f5a28347532d727c1ba7bcd8df517c"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Jun_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Jun_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:46",
+      "sha256": "047ec07f1840adc00ad63425854c5171b7a3930c4524253b5dcb5f8fcaeb6618"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Mai_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Mai_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:46",
+      "sha256": "0d68ebc74b8a51beabdab147273ed499d9a3e6255db89112648afe429b0b4c2e"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Mar_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Mar_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:47",
+      "sha256": "37a95dc44996d757682af6a3f40dec8a5b3c36d252f8815579181c44e2458dbf"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Nov_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Nov_2022.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:45",
+      "sha256": "1381a091210afc0e007c24d083ec78068fe4239a5ac96812299e5fe770eb9120"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Out_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Out_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:45",
+      "sha256": "57d6db7a00ca9564869129a5c08af37d2a234715684430d0b1c3a20cce3fe729"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2022/Realizado_Set_2022.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2022/Realizado_Set_2022.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:46",
+      "sha256": "5b194409033cf10d3d44f161450e4ad1aa55f8f2dba668cb05be7177eb7c32d4"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Abr_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Abr_2023.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:44",
+      "sha256": "0fb7ac80f9d10bf495fc75113d82b93d9631cc13e0de8367b48bce68ce1c2b9e"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Ago_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Ago_2023.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:43",
+      "sha256": "e9b8381c915a6d0c99183531c97d92086d289069efde31fa92295d48772ddd33"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Dez_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Dez_2023.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:43",
+      "sha256": "287e5f57b1a93f95847617cedbcafac36f365cd7b6e4430b17ff86cd8c256481"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Fev_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Fev_2023.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:45",
+      "sha256": "bdde0cee144cd1425d950b1390794ff68ac900209e4ec8d4f1a3caf236395f55"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Jan_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Jan_2023.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:45",
+      "sha256": "e5ab4802fb3e2975dcf00857729bf53f29f79abac0c0435f5ddd45249b51be76"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Jul_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Jul_2023.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:44",
+      "sha256": "0af962b4b9246aa42e01122343b89b9c719cb572412afd619d333b4bf4ecbf16"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Jun_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Jun_2023.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:44",
+      "sha256": "f9d83dbbdbd71bf1a4490b717abd3491435eda316bb08d26cc00e29de29fa864"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Mai_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Mai_2023.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:44",
+      "sha256": "4d0341b4f0d365c54a36cdfdb115645f457520a0653b1db7dc503cac9b40ff2e"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Mar_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Mar_2023.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:44",
+      "sha256": "bbd6b52ccaa13989b3b9228c4056e9c7383ebe241867f57a09a608f59fcb3def"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Nov_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Nov_2023.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:43",
+      "sha256": "ce0729e70e25dd1dfb648ed5a087969a15eb8e2897fca0b9d4f6fefda9943205"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Out_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Out_2023.xlsx",
+      "bytes": 4036,
+      "modificado": "2026-09-15 22:43",
+      "sha256": "ccef4c8b9c7feafe71fcca58934a068f1dd9e25c46c0346a8cb4124422c9eed5"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2023/Realizado_Set_2023.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2023/Realizado_Set_2023.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:43",
+      "sha256": "026597622b9c1a3457ced621b5f3b463b36165ff10a174da5c27bb14cc5b6aa1"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Abr_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Abr_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:42",
+      "sha256": "2f3961446373859b4037bc6ae968de1e419e50b26714de3ac40bcbd5d20a6895"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Ago_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Ago_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:41",
+      "sha256": "880ad2f14f4835213e2b318b7cfadd2d025bed27b3bc34b7ca649feab9a17ba0"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Dez_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Dez_2024.xlsx",
+      "bytes": 4038,
+      "modificado": "2026-09-15 22:40",
+      "sha256": "4dd91ce6dbd8a3a09feac46fa6cf0ea6190bd7b766a2617002b65a08cf938c97"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Fev_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Fev_2024.xlsx",
+      "bytes": 4039,
+      "modificado": "2026-09-15 22:42",
+      "sha256": "c0c40cd569e64840f7d58b33265f3578ea401adfdb7653d8a365cbd80a237a65"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Jan_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Jan_2024.xlsx",
+      "bytes": 4036,
+      "modificado": "2026-09-15 22:43",
+      "sha256": "0a03f198bdcfe07193ffedaccd5643fedde8f0a5de096a4c5ac5fd3151e4d423"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Jul_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Jul_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:41",
+      "sha256": "3ce6470a0bc3c34f8df8bb11c1937e7e2e41e33df29d397c234c816cb0723a67"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Jun_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Jun_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:42",
+      "sha256": "24ac0fa7046f737a12ed0b2e316d17f1ab36baeeb10a89c06033d22224eca6e0"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Mai_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Mai_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:42",
+      "sha256": "b8e6bf0e1521834841e36b5a6513322baee2abfa4bde83ba0bfc92cc9ad0b959"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Mar_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Mar_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:42",
+      "sha256": "251cd1acf55a58767ae17a0391691de7555c4eebaba038f87d551240636e59da"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Nov_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Nov_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:41",
+      "sha256": "d30cec2d0d43863a6e5aaf8679bb82e198ace44e496792640c7c85d7e2fe36dd"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Out_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Out_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:41",
+      "sha256": "f791295fe2d6b17ac890d41d849ee695902ce74be4911a432573ac9d4605a7e1"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2024/Realizado_Set_2024.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2024/Realizado_Set_2024.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:41",
+      "sha256": "b5907692b9990fb8e4c878054389a0eeb2a141a823031a464f1824a746f70021"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Abr_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Abr_2025.xlsx",
+      "bytes": 4199,
+      "modificado": "2026-09-15 22:40",
+      "sha256": "276e510075f594d0c253767113729648bb178388242894edc386bb2b3f92f83c"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Ago_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Ago_2025.xlsx",
+      "bytes": 17503,
+      "modificado": "2026-09-15 22:39",
+      "sha256": "47768a9a45ffa7fbda59519d4712dd5c4f647ee0829a0b708f2ca05b75f1755b"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Dez_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Dez_2025.xlsx",
+      "bytes": 5682,
+      "modificado": "2026-09-04 20:56",
+      "sha256": "35a075cd95a42aaafa95b72a629aff4fd8391d61db41f3e74aa8775273a496ad"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Fev_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Fev_2025.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:40",
+      "sha256": "c87206628b821b333ad0d0059a134bf5f4bb3fee0576e416f14571727c4fd58e"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Jan_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Jan_2025.xlsx",
+      "bytes": 4036,
+      "modificado": "2026-09-15 22:40",
+      "sha256": "ff6458b44bc018cc8b1b54819fa837cdf324689d9d0942af8c15f57ac7cb0d4d"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Jul_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Jul_2025.xlsx",
+      "bytes": 16421,
+      "modificado": "2026-09-15 22:39",
+      "sha256": "47a88fbe4878f407ef39b47eb6c51847372d313710050f27730cd907d72683ab"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Jun_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Jun_2025.xlsx",
+      "bytes": 16198,
+      "modificado": "2026-09-15 22:39",
+      "sha256": "37613530b6b12a82aceb33b6c5804f0c5b2ff701531d564dbd4c04aa0e083ee4"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Mai_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Mai_2025.xlsx",
+      "bytes": 12788,
+      "modificado": "2026-09-15 22:39",
+      "sha256": "5fd263a0f5c96e5f8519f4103e59ad6085f01d50a281e88fbe7d6fbfffe610b6"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Mar_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Mar_2025.xlsx",
+      "bytes": 4037,
+      "modificado": "2026-09-15 22:40",
+      "sha256": "6e46d1cdcc1d4f7da9785b00ac286f2b2e46227a569e8b2dd1018a489cd9cf75"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Nov_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Nov_2025.xlsx",
+      "bytes": 20936,
+      "modificado": "2026-09-15 22:38",
+      "sha256": "ccee0b38aa7e3b037d0e9d88ef6a82ca0337cefa1a35548fcb4208caea598c54"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Out_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Out_2025.xlsx",
+      "bytes": 19809,
+      "modificado": "2026-09-15 22:38",
+      "sha256": "c4b7ae351f35f8fe298b43fea50494ab397f4947e8ecc817144e7805c27dd461"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2025/Realizado_Set_2025.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2025/Realizado_Set_2025.xlsx",
+      "bytes": 18665,
+      "modificado": "2026-09-15 22:39",
+      "sha256": "eb02922d7bfce0fa3f41b832844ccb2647b8a21c642db07cbb5895b680023dcb"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Abr_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Abr_2026.xlsx",
+      "bytes": 22856,
+      "modificado": "2026-09-07 15:47",
+      "sha256": "c82c29b2222cc2043ad9bf0952782f79a6f77b218bc28562dfbf99db5931eb9e"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Ago_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Ago_2026.xlsx",
+      "bytes": 21999,
+      "modificado": "2026-09-07 15:47",
+      "sha256": "fdec9ee36542928610e2b1955339caf8efbe2275ebc85bbde96c7523a337dec5"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Fev_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Fev_2026.xlsx",
+      "bytes": 21572,
+      "modificado": "2026-09-07 15:46",
+      "sha256": "ab0d4792d2b6df6863f87495adaa04e8c74beb2c2052baf6afd70eccb613cb5b"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Jan_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Jan_2026.xlsx",
+      "bytes": 11412,
+      "modificado": "2026-09-07 15:46",
+      "sha256": "aecac8db564a7dc496e9cd83f04ffe98945ca39245a19e19edafd886454ebb47"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Jul_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Jul_2026.xlsx",
+      "bytes": 21802,
+      "modificado": "2026-09-07 15:47",
+      "sha256": "a908e1648f26c952555c97645b9bb99a14519d4af509488ecfdb0592005ec173"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Jun_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Jun_2026.xlsx",
+      "bytes": 32801,
+      "modificado": "2026-09-18 19:20",
+      "sha256": "578d728837b34a64f8b166a5154c9d38fe3c2f8468daa53412e156355b42a720"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Mai_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Mai_2026.xlsx",
+      "bytes": 22490,
+      "modificado": "2026-09-07 15:47",
+      "sha256": "0618e5a4a96bff7d044c2544f977645deccd525a3cc2ec0bf7ef52568ec75bde"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Mar_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Mar_2026.xlsx",
+      "bytes": 23423,
+      "modificado": "2026-09-07 15:46",
+      "sha256": "909ec131ab53d593bfd46619719e91e85450a66700dba4dacdbc6cb239d5ede2"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/2026/Realizado_Set_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/2026/Realizado_Set_2026.xlsx",
+      "bytes": 9194,
+      "modificado": "2026-09-07 15:48",
+      "sha256": "83bd1f6a77aa437f64315112f9d35981a2a30e392df5dc7f9dab69aead1bdc14"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/Realizado_Abr_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/Realizado_Abr_2026.xlsx",
+      "bytes": 22856,
+      "modificado": "2026-10-10 19:19",
+      "sha256": "91c271902c6dd95bd48c5b5cef65c78e263b71dd05b14ad760025445a8ca99c3"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/Realizado_Ago_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/Realizado_Ago_2026.xlsx",
+      "bytes": 22567,
+      "modificado": "2026-10-11 08:30",
+      "sha256": "c9f38d467b35a57044de245d240e2ec28724fa5318bbc2fb58ecc3144132f834"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/Realizado_Fev_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/Realizado_Fev_2026.xlsx",
+      "bytes": 21576,
+      "modificado": "2026-10-10 19:13",
+      "sha256": "5a971002908fb8111918156e8bcbae7d5de628dd7c6ce81f1eae994397994012"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/Realizado_Mai_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/Realizado_Mai_2026.xlsx",
+      "bytes": 22488,
+      "modificado": "2026-10-11 08:20",
+      "sha256": "fa7ddf7e8eb4e674c7aab3c6707688abc275f224a1d8dbea7632d85424f3f035"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/Realizado_Mar_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/Realizado_Mar_2026.xlsx",
+      "bytes": 23424,
+      "modificado": "2026-10-11 08:19",
+      "sha256": "3d32032907bdaeb8d70646b89665a3294127bbc7bacbf1003bd5902aca4330cb"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado_latest.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/HifnFluxoDeCaixaRealNewb8d7937b2ad845908ea1fa1b0acbe58c.xlsx",
+      "bytes": 14307,
+      "modificado": "2026-10-11 08:36",
+      "sha256": "1f4b7f8e2e85fa697d095c8b7f80e0b52868d1336fcc675e47329378dd5f3db5"
+    },
+    {
+      "caminho": "xlsx/movimentacao/latest.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/wbpfinmovimentacaorpt1b4ef94f89ce4d1698a6fa6910083996.xlsx",
+      "bytes": 37235,
+      "modificado": "2026-10-10 08:10",
+      "sha256": "f39e77cdd80794ac15a6d9350298f697faa5d495d5b2e5122b4b6c5ec2f92822"
+    },
+    {
+      "caminho": "xlsx/projetos/latest.xlsx",
+      "origem": "loja_18314_MOEMA_CONTRATOS/relatorios_focco/wbpvenprojetosbe8d5c0c14234c81abeaf9b78a55147d.xlsx",
+      "bytes": 4101,
+      "modificado": "2026-09-07 19:11",
+      "sha256": "ea13878c62d5b2c0927ccc390ffa22f006baf57d37ed95ab78f1aafbef20e67a"
+    }
+  ]
+}

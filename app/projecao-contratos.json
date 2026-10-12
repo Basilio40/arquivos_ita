@@ -1,0 +1,174 @@
+{
+  "fonte": "Contratosd50c1d8b356149d6b913614f0979c823.xlsx",
+  "colunas": [
+    "Valor da Venda",
+    "Previsão de Entrega"
+  ],
+  "total": 8740781.35,
+  "numContratos": 335,
+  "semPrevisaoEntrega": 56,
+  "series": [
+    {
+      "mes": "Mai/25",
+      "valor": 9534.54,
+      "projetos": 4,
+      "acumulado": 9534.54
+    },
+    {
+      "mes": "Jun/25",
+      "valor": 57917.89,
+      "projetos": 3,
+      "acumulado": 67452.43
+    },
+    {
+      "mes": "Jul/25",
+      "valor": 490.88,
+      "projetos": 1,
+      "acumulado": 67943.31
+    },
+    {
+      "mes": "Ago/25",
+      "valor": 151009.23,
+      "projetos": 3,
+      "acumulado": 218952.54
+    },
+    {
+      "mes": "Set/25",
+      "valor": 190721.0,
+      "projetos": 7,
+      "acumulado": 409673.54
+    },
+    {
+      "mes": "Out/25",
+      "valor": 245432.98,
+      "projetos": 13,
+      "acumulado": 655106.52
+    },
+    {
+      "mes": "Nov/25",
+      "valor": 421103.87,
+      "projetos": 34,
+      "acumulado": 1076210.39
+    },
+    {
+      "mes": "Dez/25",
+      "valor": 196627.16,
+      "projetos": 15,
+      "acumulado": 1272837.55
+    },
+    {
+      "mes": "Jan/26",
+      "valor": 504536.61,
+      "projetos": 16,
+      "acumulado": 1777374.16
+    },
+    {
+      "mes": "Fev/26",
+      "valor": 513053.51,
+      "projetos": 21,
+      "acumulado": 2290427.67
+    },
+    {
+      "mes": "Mar/26",
+      "valor": 307209.46,
+      "projetos": 8,
+      "acumulado": 2597637.13
+    },
+    {
+      "mes": "Abr/26",
+      "valor": 250990.03,
+      "projetos": 12,
+      "acumulado": 2848627.16
+    },
+    {
+      "mes": "Mai/26",
+      "valor": 424377.23,
+      "projetos": 20,
+      "acumulado": 3273004.39
+    },
+    {
+      "mes": "Jun/26",
+      "valor": 578790.29,
+      "projetos": 26,
+      "acumulado": 3851794.68
+    },
+    {
+      "mes": "Jul/26",
+      "valor": 653274.17,
+      "projetos": 30,
+      "acumulado": 4505068.85
+    },
+    {
+      "mes": "Ago/26",
+      "valor": 366010.32,
+      "projetos": 15,
+      "acumulado": 4871079.17
+    },
+    {
+      "mes": "Set/26",
+      "valor": 1238113.03,
+      "projetos": 29,
+      "acumulado": 6109192.2
+    },
+    {
+      "mes": "Out/26",
+      "valor": 841306.34,
+      "projetos": 22,
+      "acumulado": 6950498.54
+    },
+    {
+      "mes": "Nov/26",
+      "valor": 486145.84,
+      "projetos": 16,
+      "acumulado": 7436644.38
+    },
+    {
+      "mes": "Dez/26",
+      "valor": 703013.13,
+      "projetos": 18,
+      "acumulado": 8139657.51
+    },
+    {
+      "mes": "Jan/27",
+      "valor": 195840.0,
+      "projetos": 9,
+      "acumulado": 8335497.51
+    },
+    {
+      "mes": "Fev/27",
+      "valor": 97768.26,
+      "projetos": 4,
+      "acumulado": 8433265.77
+    },
+    {
+      "mes": "Mar/27",
+      "valor": 88749.58,
+      "projetos": 2,
+      "acumulado": 8522015.35
+    },
+    {
+      "mes": "Abr/27",
+      "valor": 66633.02,
+      "projetos": 2,
+      "acumulado": 8588648.37
+    },
+    {
+      "mes": "Mai/27",
+      "valor": 84927.23,
+      "projetos": 3,
+      "acumulado": 8673575.6
+    },
+    {
+      "mes": "Jun/27",
+      "valor": 29027.98,
+      "projetos": 1,
+      "acumulado": 8702603.58
+    },
+    {
+      "mes": "Set/27",
+      "valor": 38177.77,
+      "projetos": 1,
+      "acumulado": 8740781.35
+    }
+  ]
+}
