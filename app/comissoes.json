@@ -281,9 +281,9 @@
     "montador": 874078.15,
     "liberador": 174815.63,
     "vendedor": 524446.87,
-    "gerente": 437039.06,
+    "gerente": 437039.05,
     "medidor": 122760.0,
-    "total": 2133139.71
+    "total": 2133139.72
   },
   "seriesEntrega": [
     {
@@ -497,57 +497,57 @@
     },
     {
       "mes": "Dez/26",
-      "contratos": 18,
+      "contratos": 17,
       "montador": 93493.22,
       "liberador": 9722.92,
       "vendedor": 29168.75,
       "gerente": 24307.29,
       "medidor": 3960.0,
       "total": 160652.18,
-      "valorEntregue": 703013.13
+      "valorEntregue": 635314.29
     },
     {
       "mes": "Jan/27",
       "contratos": 9,
       "montador": 103631.03,
-      "liberador": 14060.26,
-      "vendedor": 42180.79,
-      "gerente": 35150.66,
+      "liberador": 12706.29,
+      "vendedor": 38118.86,
+      "gerente": 31765.71,
       "medidor": 3960.0,
-      "total": 198982.73,
+      "total": 190181.88,
       "valorEntregue": 195840.0
     },
     {
       "mes": "Fev/27",
-      "contratos": 4,
-      "montador": 39009.96,
+      "contratos": 5,
+      "montador": 32240.08,
       "liberador": 3916.8,
       "vendedor": 11750.4,
       "gerente": 9792.0,
       "medidor": 3960.0,
-      "total": 68429.16,
-      "valorEntregue": 97768.26
+      "total": 61659.28,
+      "valorEntregue": 165467.1
     },
     {
       "mes": "Mar/27",
       "contratos": 2,
       "montador": 50883.57,
-      "liberador": 1955.37,
-      "vendedor": 5866.1,
-      "gerente": 4888.41,
+      "liberador": 3309.34,
+      "vendedor": 9928.03,
+      "gerente": 8273.35,
       "medidor": 3960.0,
-      "total": 67553.44,
+      "total": 76354.29,
       "valorEntregue": 88749.58
     },
     {
       "mes": "Abr/27",
       "contratos": 2,
-      "montador": 13800.13,
+      "montador": 20570.01,
       "liberador": 1774.99,
       "vendedor": 5324.97,
       "gerente": 4437.48,
       "medidor": 3960.0,
-      "total": 29297.57,
+      "total": 36067.46,
       "valorEntregue": 66633.02
     },
     {

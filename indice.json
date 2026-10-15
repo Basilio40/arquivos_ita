@@ -3,30 +3,30 @@
     {
       "caminho": "app/comissoes.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 14076,
-      "modificado": "2026-10-12 16:38",
-      "sha256": "fb6196fab7e838788f70dfdcadd866d83c566e3dd5a7dfc13417c99a4d7d2d7c"
+      "bytes": 14077,
+      "modificado": "2026-10-15 13:15",
+      "sha256": "e9e7916a3e9e0a629cb3ae9c22f0e8457f4a048d458f55a1cdb0963f1b664fb8"
     },
     {
       "caminho": "app/dashboard.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 539824,
-      "modificado": "2026-10-14 11:32",
-      "sha256": "8b3edee0ad1018e9be9a2401ed3c3f1863563f9110a65787f5849495e82c72c7"
+      "bytes": 539808,
+      "modificado": "2026-10-15 13:15",
+      "sha256": "b25d040b3b0f795713c7c8d55a20ce603e86c3dc871b5e5e35fefc7be2f2def7"
     },
     {
       "caminho": "app/dre-details.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 15197,
-      "modificado": "2026-10-14 11:32",
-      "sha256": "9e80df8cf1db8ed8869d8dc62f2ca531c05ec878499a56b7597f1b35dc7cf63f"
+      "bytes": 15198,
+      "modificado": "2026-10-15 13:15",
+      "sha256": "756e409012117f1b24cab8f72de3d9561c396731cda0f77e802eac6e1f2ae186"
     },
     {
       "caminho": "app/fluxo-caixa-previsao.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 848,
-      "modificado": "2026-10-14 11:32",
-      "sha256": "bf50a5c97f9cb3a90e2bba478ff122a76ed0efd6242375584731209ac0987739"
+      "bytes": 847,
+      "modificado": "2026-10-15 13:15",
+      "sha256": "9bed616c482dccadef78d1b47291aa23ca745ce34efee04e226d93c706a8774b"
     },
     {
       "caminho": "app/fluxo-caixa-realizado.json",
@@ -39,8 +39,8 @@
       "caminho": "app/projecao-contratos.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
       "bytes": 3229,
-      "modificado": "2026-10-12 16:38",
-      "sha256": "96857ffdc4a6532b7052b4caf2dc87dd1ad4feefd3407390dfae6883cd5e01e0"
+      "modificado": "2026-10-15 13:15",
+      "sha256": "b2790c2e7c1b5af7faf97787bff3ce08e3bd83ba443b2d297c03e1c5c845caa8"
     },
     {
       "caminho": "xlsx/carteira_mensal/Abr_2026.xlsx",
