@@ -283,7 +283,7 @@
     "vendedor": 529895.15,
     "gerente": 441579.29,
     "medidor": 122760.0,
-    "total": 2154024.79
+    "total": 2154024.8
   },
   "seriesEntrega": [
     {
@@ -520,23 +520,23 @@
     {
       "mes": "Fev/27",
       "contratos": 5,
-      "montador": 33260.54,
+      "montador": 38157.43,
       "liberador": 3916.8,
       "vendedor": 11750.4,
       "gerente": 9792.0,
       "medidor": 3960.0,
-      "total": 62679.74,
+      "total": 67576.63,
       "valorEntregue": 165467.1
     },
     {
       "mes": "Mar/27",
       "contratos": 2,
-      "montador": 58943.57,
+      "montador": 54046.68,
       "liberador": 3309.34,
       "vendedor": 9928.03,
       "gerente": 8273.35,
       "medidor": 3960.0,
-      "total": 84414.29,
+      "total": 79517.41,
       "valorEntregue": 88749.58
     },
     {
