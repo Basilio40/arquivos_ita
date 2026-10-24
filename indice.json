@@ -10,23 +10,23 @@
     {
       "caminho": "app/dashboard.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 552327,
-      "modificado": "2026-10-23 13:02",
-      "sha256": "5e78508b90e671e7a3dfba184593bffa41e4e5a9566a3cad842fdc711c152889"
+      "bytes": 553011,
+      "modificado": "2026-10-24 12:53",
+      "sha256": "301c0dcd55b874766b7d49a29bda62bb34eeb38cbbefed92303a3f689c51462d"
     },
     {
       "caminho": "app/dre-details.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 15214,
-      "modificado": "2026-10-23 13:02",
-      "sha256": "edc1eeb6f6091c5b6e2003bee435548a99661ce3560e5ba50cc71364d62eaf51"
+      "bytes": 15212,
+      "modificado": "2026-10-24 12:53",
+      "sha256": "4dc1b8ef3e2593c70eacbcf963d9f440f70d8b49071f3f15c9a6206e07101afd"
     },
     {
       "caminho": "app/fluxo-caixa-previsao.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
       "bytes": 844,
-      "modificado": "2026-10-23 13:02",
-      "sha256": "abaec8c6283569300be0ae5b03de046ce4b14e7a178c5d415fa53e90898db66e"
+      "modificado": "2026-10-24 12:53",
+      "sha256": "aa3aea47d4eb1bea9acc5846ecaf3bd521b6638d04dc1a097f7fc5b7adbd3e2e"
     },
     {
       "caminho": "app/fluxo-caixa-realizado.json",
