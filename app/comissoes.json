@@ -26,18 +26,18 @@
       "valorMensal": 3960.0
     }
   },
-  "totalAssinado": 10397503.91,
-  "numContratos": 388,
+  "totalAssinado": 10447347.03,
+  "numContratos": 390,
   "semAssinatura": 11,
   "mesInicio": "Abr/25",
   "mesFim": "Dez/26",
   "totais": {
-    "montador": 1039750.39,
-    "liberador": 207950.1,
-    "vendedor": 623850.25,
-    "gerente": 519875.2,
+    "montador": 1044734.69,
+    "liberador": 208946.96,
+    "vendedor": 626840.84,
+    "gerente": 522367.36,
     "medidor": 83160.0,
-    "total": 2474585.9
+    "total": 2486049.82
   },
   "series": [
     {
@@ -200,7 +200,7 @@
       "montador": 34426.12,
       "liberador": 11899.25,
       "vendedor": 35697.74,
-      "gerente": 29748.11,
+      "gerente": 29748.12,
       "medidor": 3960.0,
       "total": 115731.22,
       "valorAssinado": 803033.25
@@ -210,7 +210,7 @@
       "contratos": 24,
       "montador": 70388.85,
       "liberador": 16060.67,
-      "vendedor": 48181.99,
+      "vendedor": 48182.0,
       "gerente": 40151.66,
       "medidor": 3960.0,
       "total": 178743.18,
@@ -219,7 +219,7 @@
     {
       "mes": "Ago/26",
       "contratos": 24,
-      "montador": 52745.63,
+      "montador": 52745.62,
       "liberador": 18744.57,
       "vendedor": 56233.71,
       "gerente": 46861.42,
@@ -240,50 +240,50 @@
     },
     {
       "mes": "Out/26",
-      "contratos": 12,
+      "contratos": 14,
       "montador": 67912.89,
       "liberador": 9117.45,
       "vendedor": 27352.36,
       "gerente": 22793.63,
       "medidor": 3960.0,
       "total": 131136.33,
-      "valorAssinado": 189112.76
+      "valorAssinado": 238955.88
     },
     {
       "mes": "Nov/26",
       "contratos": 0,
       "montador": 45833.62,
-      "liberador": 3782.26,
-      "vendedor": 11346.77,
-      "gerente": 9455.64,
+      "liberador": 4779.12,
+      "vendedor": 14337.35,
+      "gerente": 11947.79,
       "medidor": 3960.0,
-      "total": 74378.28,
+      "total": 80857.89,
       "valorAssinado": 0.0
     },
     {
       "mes": "Dez/26",
       "contratos": 0,
-      "montador": 29741.28,
+      "montador": 34725.59,
       "liberador": 0.0,
       "vendedor": 0.0,
       "gerente": 0.0,
       "medidor": 3960.0,
-      "total": 33701.28,
+      "total": 38685.59,
       "valorAssinado": 0.0
     }
   ],
-  "totalEntregue": 8831586.03,
-  "numContratosEntrega": 342,
+  "totalEntregue": 8881429.15,
+  "numContratosEntrega": 344,
   "semPrevisaoEntrega": 57,
   "mesInicioEntrega": "Mai/25",
   "mesFimEntrega": "Nov/27",
   "totaisEntrega": {
-    "montador": 883158.61,
-    "liberador": 176631.72,
-    "vendedor": 529895.15,
-    "gerente": 441579.29,
+    "montador": 888142.93,
+    "liberador": 177628.58,
+    "vendedor": 532885.74,
+    "gerente": 444071.45,
     "medidor": 122760.0,
-    "total": 2154024.8
+    "total": 2165488.71
   },
   "seriesEntrega": [
     {
@@ -508,35 +508,35 @@
     },
     {
       "mes": "Jan/27",
-      "contratos": 9,
+      "contratos": 11,
       "montador": 103631.03,
       "liberador": 14522.38,
       "vendedor": 43567.14,
       "gerente": 36305.95,
       "medidor": 3960.0,
       "total": 201986.49,
-      "valorEntregue": 195840.0
+      "valorEntregue": 245683.12
     },
     {
       "mes": "Fev/27",
       "contratos": 5,
       "montador": 38157.43,
-      "liberador": 3916.8,
-      "vendedor": 11750.4,
-      "gerente": 9792.0,
+      "liberador": 4913.66,
+      "vendedor": 14740.99,
+      "gerente": 12284.16,
       "medidor": 3960.0,
-      "total": 67576.63,
+      "total": 74056.23,
       "valorEntregue": 165467.1
     },
     {
       "mes": "Mar/27",
       "contratos": 2,
-      "montador": 54046.68,
+      "montador": 59031.0,
       "liberador": 3309.34,
       "vendedor": 9928.03,
       "gerente": 8273.35,
       "medidor": 3960.0,
-      "total": 79517.41,
+      "total": 84501.72,
       "valorEntregue": 88749.58
     },
     {
