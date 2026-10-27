@@ -4,9 +4,12 @@ Reads DRE_01_<ano>.xlsx .. DRE_12_<ano>.xlsx and produces:
   - dashboard.json
   - dre-details.json
 
-Optionally overrides the macro revenue value with the sum of the
-"Valor Liquido (A Vista) sem o Per" column from the monthly carteira
-reports (relatorios_carteira_mensal/Mes_<ano>.xlsx).
+A receita do dreMonth é composta a partir do PRÓPRIO DRE:
+    3.01 RECEITA BRUTA − 4.03.01.02.03 COMISSÕES CAPTAÇÃO
+                      − 4.03.02 COMISSÕES E BÔNUS DE TERCEIROS
+                      − 4.07 DESPESAS FINANCEIRAS VARIÁVEIS
+Os relatórios da carteira mensal (--carteira-dir), quando informados, seguem
+valendo APENAS para o bloco "carteira" (abastecimento da aba Carteira).
 
 CÓPIA VENDORIZADA para o repo de dados (arquivos_ita), a partir de
 pro-dash-mp/scripts/transform_dre.py, com três diferenças:
@@ -269,6 +272,11 @@ def load_carteira_receitas(carteira_dir):
     return receitas
 
 
+# Composição da receita do dreMonth (pedido: gráfico "Evolução mensal" do /dre):
+# 3.01 RECEITA BRUTA deduzida destes itens dos summaries do mês.
+RECEITA_BASE = '3.01'
+RECEITA_DEDUÇÕES = ('4.03.01.02.03', '4.03.02', '4.07')
+
 GROUP_DEFINITIONS = {
     '3.01': ('RECEITAS', 'RECEITA BRUTA'),
     '4.01': ('DESPESAS', 'IMPOSTOS SOBRE VENDAS'),
@@ -301,19 +309,19 @@ def build_dashboard(source_dir, carteira_dir=None,
         monthly_break_even[month] = break_even
         all_details.extend([(month, d) for d in details])
 
-    # carteira mensal (optional revenue override)
+    # carteira mensal: alimenta SOMENTE o bloco "carteira" (aba Carteira);
+    # desde 2026-10-26 não substitui mais a receita do dreMonth.
     carteira_receitas = load_carteira_receitas(carteira_dir) if carteira_dir else {}
-    use_carteira = bool(carteira_receitas)
-    if use_carteira:
-        print('  Using carteira mensal values as revenue')
+    if carteira_receitas:
+        print('  Carteira mensal: valores usados apenas no bloco "carteira"')
 
-    # dreMonth
+    # dreMonth — receitas compostas do próprio DRE (ver RECEITA_DEDUÇÕES):
+    #   3.01 RECEITA BRUTA − 4.03.01.02.03 − 4.03.02 − 4.07
     dre_month = []
     for m in MONTHS:
         sums = monthly_summaries.get(m, {})
-        receitas = sum(v for c, v in sums.items() if c.startswith('3.') and c.count('.') == 1)
-        if use_carteira and m in carteira_receitas:
-            receitas = carteira_receitas[m]
+        receitas = sums.get(RECEITA_BASE, 0.0) - sum(
+            sums.get(c, 0.0) for c in RECEITA_DEDUÇÕES)
         despesas = sum(v for c, v in sums.items() if c.startswith('4.') and c.count('.') == 1)
         resultado = receitas - despesas
         margem = (resultado / receitas * 100) if receitas else 0
@@ -404,7 +412,7 @@ def build_dashboard(source_dir, carteira_dir=None,
             parte = d['parte'].strip()
             if parte:
                 clients_in_month[parte] = clients_in_month.get(parte, 0) + d['valor']
-        if use_carteira and m in carteira_receitas:
+        if m in carteira_receitas:
             total = carteira_receitas[m]
         else:
             total = sum(d['valor'] for d in rev_rows)
