@@ -11,8 +11,8 @@
       "caminho": "app/dashboard.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
       "bytes": 558777,
-      "modificado": "2026-10-26 23:59",
-      "sha256": "c22be0bf4f5bc3f2251c163b99f520e581568f5979a52f7363ff14b3b2b4980d"
+      "modificado": "2026-10-28 19:54",
+      "sha256": "f69a631f81c6404568d078655fee51dfc13b054f313ff31aa2dc69280549af06"
     },
     {
       "caminho": "app/dre-details.json",
