@@ -4,9 +4,9 @@
     "Valor da Venda",
     "Previsão de Entrega"
   ],
-  "total": 8881429.15,
+  "total": 8871062.74,
   "numContratos": 344,
-  "semPrevisaoEntrega": 57,
+  "semPrevisaoEntrega": 58,
   "series": [
     {
       "mes": "Mai/25",
@@ -124,51 +124,51 @@
     },
     {
       "mes": "Dez/26",
-      "valor": 726118.97,
-      "projetos": 24,
-      "acumulado": 8162763.35
+      "valor": 696418.97,
+      "projetos": 23,
+      "acumulado": 8133063.35
     },
     {
       "mes": "Jan/27",
-      "valor": 245683.12,
-      "projetos": 11,
-      "acumulado": 8408446.47
+      "valor": 215173.59,
+      "projetos": 10,
+      "acumulado": 8348236.94
     },
     {
       "mes": "Fev/27",
-      "valor": 165467.1,
-      "projetos": 5,
-      "acumulado": 8573913.57
+      "valor": 215310.22,
+      "projetos": 7,
+      "acumulado": 8563547.16
     },
     {
       "mes": "Mar/27",
       "valor": 88749.58,
       "projetos": 2,
-      "acumulado": 8662663.15
+      "acumulado": 8652296.74
     },
     {
       "mes": "Abr/27",
       "valor": 66633.02,
       "projetos": 2,
-      "acumulado": 8729296.17
+      "acumulado": 8718929.76
     },
     {
       "mes": "Mai/27",
       "valor": 84927.23,
       "projetos": 3,
-      "acumulado": 8814223.4
+      "acumulado": 8803856.99
     },
     {
       "mes": "Jun/27",
       "valor": 29027.98,
       "projetos": 1,
-      "acumulado": 8843251.38
+      "acumulado": 8832884.97
     },
     {
       "mes": "Set/27",
       "valor": 38177.77,
       "projetos": 1,
-      "acumulado": 8881429.15
+      "acumulado": 8871062.74
     }
   ]
 }

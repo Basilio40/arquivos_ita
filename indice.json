@@ -3,30 +3,30 @@
     {
       "caminho": "app/comissoes.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 14085,
-      "modificado": "2026-10-25 17:11",
-      "sha256": "821b92044da3882150eeb61852258d5bcb24ef90534fd51f1dd1db88c4fe3f4b"
+      "bytes": 14317,
+      "modificado": "2026-10-29 22:01",
+      "sha256": "2eed13b4fe74d6030c747a533ab64fa14161ea5bc45d1ed3c424c0d0fe8e7993"
     },
     {
       "caminho": "app/dashboard.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 558777,
-      "modificado": "2026-10-28 19:54",
-      "sha256": "f69a631f81c6404568d078655fee51dfc13b054f313ff31aa2dc69280549af06"
+      "bytes": 560551,
+      "modificado": "2026-10-29 22:01",
+      "sha256": "fc435defdf7aadefa857f871126211c9eef0d3f27cdb3fa7b396fb2ceec8b47c"
     },
     {
       "caminho": "app/dre-details.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 15209,
-      "modificado": "2026-10-25 17:11",
-      "sha256": "692ef0cbf151f965cd3ded9ec0bfe5fe939fbe95310aae43cd7e3605facd48b1"
+      "bytes": 15211,
+      "modificado": "2026-10-29 22:01",
+      "sha256": "5e1a484fc95d5fa2b57026dacbdd01bf48f6dd3653be70c64148657fb6819ba5"
     },
     {
       "caminho": "app/fluxo-caixa-previsao.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
       "bytes": 843,
-      "modificado": "2026-10-25 17:11",
-      "sha256": "a2a3e88c38d1b23c52baf945d69dc3df6567ae9c5c59d87fd2b388bcb5ae56a8"
+      "modificado": "2026-10-29 22:01",
+      "sha256": "dd99bc078a9a04d15062683b8f5f7b49f0c11333dd6933ee41842b76acff7695"
     },
     {
       "caminho": "app/fluxo-caixa-realizado.json",
@@ -38,9 +38,9 @@
     {
       "caminho": "app/projecao-contratos.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 3231,
-      "modificado": "2026-10-25 17:11",
-      "sha256": "c71b8ac60b840e4a625bd95a43cefac89a60d2b3b5d73360512de6fa62e191a9"
+      "bytes": 3233,
+      "modificado": "2026-10-29 22:01",
+      "sha256": "602f2f6a22bac92d5690ae5d4f0e441b62e1318420c8ce291ab3049aeb4da2be"
     },
     {
       "caminho": "xlsx/carteira_mensal/Abr_2026.xlsx",
