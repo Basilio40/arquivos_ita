@@ -8,9 +8,9 @@ A receita do dreMonth é composta a partir do PRÓPRIO DRE:
     3.01 RECEITA BRUTA − 4.03.01.02.03 COMISSÕES CAPTAÇÃO
                       − 4.03.02 COMISSÕES E BÔNUS DE TERCEIROS
                       − 4.07 DESPESAS FINANCEIRAS VARIÁVEIS
-As despesas do dreMonth somam apenas 4.01+4.02+4.03+4.04+4.07 — o grupo
-4.06 DESPESAS E RECEITAS FINANCEIRAS fica excluído (pedido: gráfico
-"Evolução mensal" do /dre).
+As despesas do dreMonth somam os grupos 4.01+4.02+4.03+4.04+4.06+4.07 — o
+4.06 DESPESAS E RECEITAS FINANCEIRAS volta a compor as despesas (exclusão
+anterior revertida a pedido) e também aparece em dreGroups/dre-details.
 Os relatórios da carteira mensal (--carteira-dir), quando informados, seguem
 valendo APENAS para o bloco "carteira" (abastecimento da aba Carteira).
 
@@ -280,11 +280,11 @@ def load_carteira_receitas(carteira_dir):
 RECEITA_BASE = '3.01'
 RECEITA_DEDUÇÕES = ('4.03.01.02.03', '4.03.02', '4.07')
 
-# Grupos que compõem as despesas do dreMonth. O 4.06 DESPESAS E RECEITAS
-# FINANCEIRAS existe no DRE FOCCO mas fica FORA da soma (mesma composição da
-# UI — GRUPOS_DESPESA em src/lib/despesas.ts, que ainda subtrai os itens
-# excluídos 4.03.01.01/4.03.01.02.03/4.03.02/4.07.01).
-DESPESA_GRUPOS = ('4.01', '4.02', '4.03', '4.04', '4.07')
+# Grupos que compõem as despesas do dreMonth (mesma composição da UI —
+# GRUPOS_DESPESA em src/lib/despesas.ts, que ainda subtrai os itens
+# excluídos 4.03.01.01/4.03.01.02.03/4.03.02/4.07.01). O 4.06 voltou a
+# compor as despesas (exclusão anterior revertida a pedido).
+DESPESA_GRUPOS = ('4.01', '4.02', '4.03', '4.04', '4.06', '4.07')
 
 GROUP_DEFINITIONS = {
     '3.01': ('RECEITAS', 'RECEITA BRUTA'),
@@ -292,6 +292,7 @@ GROUP_DEFINITIONS = {
     '4.02': ('DESPESAS', 'CUSTO DAS MERCADORIAS VENDIDAS'),
     '4.03': ('DESPESAS', 'DESPESAS COM PESSOAL / COMISSOES'),
     '4.04': ('DESPESAS', 'DESPESAS OPERACIONAIS'),
+    '4.06': ('DESPESAS', 'DESPESAS E RECEITAS FINANCEIRAS'),
     '4.07': ('DESPESAS', 'DESPESAS FINANCEIRAS'),
 }
 
@@ -326,7 +327,7 @@ def build_dashboard(source_dir, carteira_dir=None,
 
     # dreMonth — receitas compostas do próprio DRE (ver RECEITA_DEDUÇÕES):
     #   3.01 RECEITA BRUTA − 4.03.01.02.03 − 4.03.02 − 4.07
-    # despesas = apenas os grupos de DESPESA_GRUPOS (o 4.06 fica excluído).
+    # despesas = apenas os grupos de DESPESA_GRUPOS (o 4.06 incluído).
     dre_month = []
     for m in MONTHS:
         sums = monthly_summaries.get(m, {})
