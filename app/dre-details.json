@@ -2,7 +2,7 @@
   {
     "grupoCod": "3.01",
     "itemCod": "3.01.01",
-    "itemNome": "3.01.01",
+    "itemNome": "RECEITA DE VENDA DE MERCADORIAS",
     "Jan": 451220.48,
     "Fev": 620627.48,
     "Mar": 357336.74,
@@ -18,7 +18,7 @@
   {
     "grupoCod": "4.01",
     "itemCod": "4.01.01",
-    "itemNome": "4.01.01",
+    "itemNome": "IMPOSTOS SOBRE VENDAS",
     "Jan": 20020.33,
     "Fev": 23187.15,
     "Mar": 23629.1,
@@ -34,7 +34,7 @@
   {
     "grupoCod": "4.02",
     "itemCod": "4.02.01",
-    "itemNome": "4.02.01",
+    "itemNome": "CUSTO DAS MERCADORIAS VENDIDAS e SERVIÇOS",
     "Jan": 164479.8,
     "Fev": 229561.3,
     "Mar": 139364.41,
@@ -50,7 +50,7 @@
   {
     "grupoCod": "4.02",
     "itemCod": "4.02.01.01",
-    "itemNome": "4.02.01.01",
+    "itemNome": "Compra de mercadorias",
     "Jan": 164479.8,
     "Fev": 229561.3,
     "Mar": 139364.41,
@@ -66,7 +66,7 @@
   {
     "grupoCod": "4.02",
     "itemCod": "4.02.02",
-    "itemNome": "4.02.02",
+    "itemNome": "CUSTO DE TRANSPORTE",
     "Jan": 28981.78,
     "Fev": 35272.19,
     "Mar": 25142.28,
@@ -82,7 +82,7 @@
   {
     "grupoCod": "4.02",
     "itemCod": "4.02.02.01",
-    "itemNome": "4.02.02.01",
+    "itemNome": "Fretes sobre compras",
     "Jan": 28981.78,
     "Fev": 35272.19,
     "Mar": 25142.28,
@@ -98,7 +98,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.01",
-    "itemNome": "4.03.01",
+    "itemNome": "REMUNERAÇÃO VARIÁVEL",
     "Jan": 83666.21,
     "Fev": 118042.87,
     "Mar": 68260.87,
@@ -114,7 +114,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.01.02",
-    "itemNome": "4.03.01.02",
+    "itemNome": "Remuneração variável de equipe",
     "Jan": 83666.21,
     "Fev": 118042.87,
     "Mar": 68260.87,
@@ -130,7 +130,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.01.02.01",
-    "itemNome": "4.03.01.02.01",
+    "itemNome": "Comissões gerência de vendas",
     "Jan": 7243.79,
     "Fev": 10092.01,
     "Mar": 5832.48,
@@ -146,7 +146,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.01.02.02",
-    "itemNome": "4.03.01.02.02",
+    "itemNome": "Comissões vendas",
     "Jan": 30656.12,
     "Fev": 47958.8,
     "Mar": 25325.11,
@@ -162,7 +162,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.01.02.03",
-    "itemNome": "4.03.01.02.03",
+    "itemNome": "Comissões captação",
     "Jan": 0,
     "Fev": 828.3,
     "Mar": 623.76,
@@ -178,7 +178,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.02",
-    "itemNome": "4.03.02",
+    "itemNome": "COMISSÕES E BÔNUS DE TERCEIROS",
     "Jan": 287.19,
     "Fev": 2687.96,
     "Mar": 9402.8,
@@ -194,7 +194,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.02.02",
-    "itemNome": "4.03.02.02",
+    "itemNome": "Bônus por indicação",
     "Jan": 287.19,
     "Fev": 2687.96,
     "Mar": 9402.8,
@@ -210,7 +210,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.03",
-    "itemNome": "4.03.03",
+    "itemNome": "GASTOS GERAIS COM VENDAS",
     "Jan": 14650.7,
     "Fev": 12991.2,
     "Mar": 13200.91,
@@ -226,7 +226,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.03.01",
-    "itemNome": "4.03.03.01",
+    "itemNome": "Entrega de mercadoria ao cliente",
     "Jan": 1652.04,
     "Fev": 1309.21,
     "Mar": 952.92,
@@ -242,7 +242,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.03.02",
-    "itemNome": "4.03.03.02",
+    "itemNome": "Agregados e outros gastos de montagens",
     "Jan": 3930.0,
     "Fev": 2520.0,
     "Mar": 2700.0,
@@ -258,7 +258,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.03.02.05",
-    "itemNome": "4.03.03.02.05",
+    "itemNome": "Assistência técnica - custo loja",
     "Jan": 3930.0,
     "Fev": 2520.0,
     "Mar": 2700.0,
@@ -274,7 +274,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.03.03",
-    "itemNome": "4.03.03.03",
+    "itemNome": "Veículos - despesas gerais variáveis",
     "Jan": 6.67,
     "Fev": 0,
     "Mar": 0,
@@ -290,7 +290,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.03.05",
-    "itemNome": "4.03.03.05",
+    "itemNome": "Viagens - passagens, combustíveis, hospedagem, alimentação (CV)",
     "Jan": 0,
     "Fev": 0,
     "Mar": 0,
@@ -306,7 +306,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.03.08",
-    "itemNome": "4.03.03.08",
+    "itemNome": "Brindes (CV)",
     "Jan": 0,
     "Fev": 0,
     "Mar": 0,
@@ -322,7 +322,7 @@
   {
     "grupoCod": "4.03",
     "itemCod": "4.03.03.09",
-    "itemNome": "4.03.03.09",
+    "itemNome": "Marketing - mídias / ações comerciais / outros (CV)",
     "Jan": 9061.99,
     "Fev": 9161.99,
     "Mar": 9547.99,
@@ -338,7 +338,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01",
-    "itemNome": "4.04.01",
+    "itemNome": "REMUNERAÇÃO FIXA",
     "Jan": 50436.82,
     "Fev": 56605.59,
     "Mar": 54453.07,
@@ -354,7 +354,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.01",
-    "itemNome": "4.04.01.01",
+    "itemNome": "Remuneração fixa de sócios / proprietários",
     "Jan": 1000.0,
     "Fev": 1000.0,
     "Mar": 1000.0,
@@ -370,7 +370,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.02",
-    "itemNome": "4.04.01.02",
+    "itemNome": "Remuneração fixa de equipe",
     "Jan": 33623.98,
     "Fev": 38380.37,
     "Mar": 37653.74,
@@ -386,7 +386,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.02.01",
-    "itemNome": "4.04.01.02.01",
+    "itemNome": "Salário fixo",
     "Jan": 30683.91,
     "Fev": 36118.15,
     "Mar": 31832.59,
@@ -402,7 +402,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.02.05",
-    "itemNome": "4.04.01.02.05",
+    "itemNome": "IRRF sobre salários",
     "Jan": 1201.18,
     "Fev": 159.39,
     "Mar": 4689.29,
@@ -418,7 +418,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.02.06",
-    "itemNome": "4.04.01.02.06",
+    "itemNome": "INSS empregados",
     "Jan": 1738.89,
     "Fev": 2102.83,
     "Mar": 1131.86,
@@ -434,7 +434,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.03",
-    "itemNome": "4.04.01.03",
+    "itemNome": "Encargos e provisões sobre remuneração fixa",
     "Jan": 1118.61,
     "Fev": 2227.54,
     "Mar": 767.14,
@@ -450,7 +450,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.04",
-    "itemNome": "4.04.01.04",
+    "itemNome": "Rescisões e indenizações",
     "Jan": 14250.0,
     "Fev": 14250.0,
     "Mar": 14250.0,
@@ -466,7 +466,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.05",
-    "itemNome": "4.04.01.05",
+    "itemNome": "Benefícios a funcionários",
     "Jan": 444.23,
     "Fev": 747.68,
     "Mar": 782.19,
@@ -482,7 +482,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.05.02",
-    "itemNome": "4.04.01.05.02",
+    "itemNome": "Vale transporte",
     "Jan": 444.23,
     "Fev": 747.68,
     "Mar": 782.19,
@@ -498,7 +498,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.06",
-    "itemNome": "4.04.01.06",
+    "itemNome": "Assistência médica e hospitalar",
     "Jan": 0,
     "Fev": 0,
     "Mar": 0,
@@ -514,7 +514,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.01.07",
-    "itemNome": "4.04.01.07",
+    "itemNome": "Uniformes e crachás",
     "Jan": 0,
     "Fev": 0,
     "Mar": 0,
@@ -530,7 +530,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02",
-    "itemNome": "4.04.02",
+    "itemNome": "GASTOS GERAIS ADMINISTRATIVOS",
     "Jan": 31317.37,
     "Fev": 27208.85,
     "Mar": 28245.59,
@@ -546,7 +546,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.01",
-    "itemNome": "4.04.02.01",
+    "itemNome": "Aluguel / condomínio",
     "Jan": 12110.27,
     "Fev": 18019.79,
     "Mar": 18019.21,
@@ -562,7 +562,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.02",
-    "itemNome": "4.04.02.02",
+    "itemNome": "Energia elétrica",
     "Jan": 1111.71,
     "Fev": 1243.26,
     "Mar": 1181.93,
@@ -578,7 +578,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.03",
-    "itemNome": "4.04.02.03",
+    "itemNome": "Água",
     "Jan": 153.96,
     "Fev": 168.33,
     "Mar": 163.96,
@@ -594,7 +594,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.04",
-    "itemNome": "4.04.02.04",
+    "itemNome": "Telefone (CF)",
     "Jan": 376.23,
     "Fev": 376.23,
     "Mar": 376.23,
@@ -610,7 +610,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.05",
-    "itemNome": "4.04.02.05",
+    "itemNome": "Limpeza",
     "Jan": 1600.0,
     "Fev": 0,
     "Mar": 1800.0,
@@ -626,7 +626,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.06",
-    "itemNome": "4.04.02.06",
+    "itemNome": "Material de escritório",
     "Jan": 1016.45,
     "Fev": 937.5,
     "Mar": 456.71,
@@ -642,7 +642,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.07",
-    "itemNome": "4.04.02.07",
+    "itemNome": "Informática",
     "Jan": 2398.6,
     "Fev": 2006.31,
     "Mar": 2191.37,
@@ -658,7 +658,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.08",
-    "itemNome": "4.04.02.08",
+    "itemNome": "Mensalidades e assinaturas",
     "Jan": 2303.25,
     "Fev": 2297.5,
     "Mar": 2096.7,
@@ -674,7 +674,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.11",
-    "itemNome": "4.04.02.11",
+    "itemNome": "Manutenção de predio e equipamentos",
     "Jan": 8808.17,
     "Fev": 370.0,
     "Mar": 510.0,
@@ -690,7 +690,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.13",
-    "itemNome": "4.04.02.13",
+    "itemNome": "Impostos e taxas",
     "Jan": 71.16,
     "Fev": 411.61,
     "Mar": 71.16,
@@ -706,7 +706,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.14",
-    "itemNome": "4.04.02.14",
+    "itemNome": "Serviços de terceiros",
     "Jan": 1367.57,
     "Fev": 1378.32,
     "Mar": 1378.32,
@@ -722,7 +722,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.02.16",
-    "itemNome": "4.04.02.16",
+    "itemNome": "Brindes (CF)",
     "Jan": 0,
     "Fev": 0,
     "Mar": 0,
@@ -738,7 +738,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.03",
-    "itemNome": "4.04.03",
+    "itemNome": "GASTOS COM DEPÓSITO",
     "Jan": 0,
     "Fev": 364.15,
     "Mar": 364.15,
@@ -754,7 +754,7 @@
   {
     "grupoCod": "4.04",
     "itemCod": "4.04.03.01",
-    "itemNome": "4.04.03.01",
+    "itemNome": "Gastos com depósito",
     "Jan": 0,
     "Fev": 364.15,
     "Mar": 364.15,
@@ -770,7 +770,7 @@
   {
     "grupoCod": "4.06",
     "itemCod": "4.06.01",
-    "itemNome": "4.06.01",
+    "itemNome": "DESPESAS E RECEITAS FINANCEIRAS",
     "Jan": 7.12,
     "Fev": 6.92,
     "Mar": 6.96,
@@ -786,7 +786,7 @@
   {
     "grupoCod": "4.06",
     "itemCod": "4.06.01.01",
-    "itemNome": "4.06.01.01",
+    "itemNome": "Juros e despesas sobre movimentações e operações financeiras",
     "Jan": 7.12,
     "Fev": 6.92,
     "Mar": 6.96,
@@ -802,7 +802,7 @@
   {
     "grupoCod": "4.07",
     "itemCod": "4.07.01",
-    "itemNome": "4.07.01",
+    "itemNome": "DESPESAS FINANCEIRAS VARIÁVEIS",
     "Jan": 54499.75,
     "Fev": 69234.24,
     "Mar": 25007.64,
@@ -818,7 +818,7 @@
   {
     "grupoCod": "4.07",
     "itemCod": "4.07.01.01",
-    "itemNome": "4.07.01.01",
+    "itemNome": "Encargos financeiros variáveis",
     "Jan": 54499.75,
     "Fev": 69234.24,
     "Mar": 25007.64,

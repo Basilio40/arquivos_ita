@@ -17,9 +17,9 @@
     {
       "caminho": "app/dre-details.json",
       "origem": "scripts/gerar_app_json.py (GitHub Actions)",
-      "bytes": 15759,
-      "modificado": "2026-10-30 08:10",
-      "sha256": "839f47125597df7c534eb7b4ee3dcc00b79af3c06555e89a0d562bab7f008236"
+      "bytes": 16626,
+      "modificado": "2026-10-30 08:20",
+      "sha256": "12003c739e122d102bfa90a122327b24641cb7246148d0084365de341ec4d557"
     },
     {
       "caminho": "app/fluxo-caixa-previsao.json",

@@ -189,6 +189,7 @@ def process_file(filepath):
     ws = wb.active
     month = month_from_filename(os.path.basename(filepath))
     summaries = {}
+    summary_names = {}
     detail_rows = []
     break_even = 0.0
 
@@ -207,6 +208,7 @@ def process_file(filepath):
         if is_summary_row(row):
             total = parse_brl(row[1])
             summaries[code] = total
+            summary_names[code] = extract_name(acc_str)
             continue
         if is_detail_row(row):
             valor = parse_brl(row[8])
@@ -228,7 +230,7 @@ def process_file(filepath):
                 'cc': str(row[14] or '').strip() if len(row) > 14 else '',
             })
 
-    return month, summaries, detail_rows, break_even
+    return month, summaries, summary_names, detail_rows, break_even
 
 
 def extract_receita_carteira(filepath):
@@ -302,6 +304,7 @@ def build_dashboard(source_dir, carteira_dir=None,
     months = detect_months(source_dir)
     print(f'  Months detected: {months or MONTHS}')
     monthly_summaries = {}
+    monthly_summary_names = {}
     monthly_details = {}
     monthly_break_even = {}
     all_details = []
@@ -313,8 +316,9 @@ def build_dashboard(source_dir, carteira_dir=None,
             print(f'  WARNING: {fname} not found, skipping')
             continue
         print(f'  Processing {fname}...')
-        month, summaries, details, break_even = process_file(fpath)
+        month, summaries, summary_names, details, break_even = process_file(fpath)
         monthly_summaries[month] = summaries
+        monthly_summary_names[month] = summary_names
         monthly_details[month] = details
         monthly_break_even[month] = break_even
         all_details.extend([(month, d) for d in details])
@@ -368,6 +372,14 @@ def build_dashboard(source_dir, carteira_dir=None,
     dre_groups.sort(key=lambda g: (0 if g['top'] == 'RECEITAS' else 1, g['grupoCod']))
 
     # dre-details
+    # Nome de cada item: o FOCCO traz o nome legível na própria linha de
+    # sumário ("4.03.02 COMISSÕES E BÔNUS DE TERCEIROS") — acumula os nomes de
+    # todos os meses (o mais recente vence); linhas de detalhe seguem como
+    # fallback para códigos que só existam lá.
+    code_names = {}
+    for m in MONTHS:
+        code_names.update(monthly_summary_names.get(m, {}))
+
     item_map = {}
     for m in MONTHS:
         sums = monthly_summaries.get(m, {})
@@ -379,15 +391,19 @@ def build_dashboard(source_dir, carteira_dir=None,
                 continue
             key = (gc, code)
             if key not in item_map:
-                name = code
-                for md, details in monthly_details.items():
-                    for d in details:
-                        if d['code'] == code:
-                            name = d['acc_name']
+                name = code_names.get(code, '')
+                if not name:
+                    for md, details in monthly_details.items():
+                        for d in details:
+                            if d['code'] == code:
+                                name = d['acc_name']
+                                break
+                        if name:
                             break
-                    if name != code:
-                        break
-                item_map[key] = {'grupoCod': gc, 'itemCod': code, 'itemNome': name}
+                item_map[key] = {
+                    'grupoCod': gc, 'itemCod': code,
+                    'itemNome': name or code,
+                }
             if m not in item_map[key]:
                 item_map[key][m] = 0.0
             item_map[key][m] += val
