@@ -26,18 +26,18 @@
       "valorMensal": 3960.0
     }
   },
-  "totalAssinado": 10466680.62,
-  "numContratos": 391,
-  "semAssinatura": 11,
+  "totalAssinado": 10561656.56,
+  "numContratos": 396,
+  "semAssinatura": 12,
   "mesInicio": "Abr/25",
   "mesFim": "Jan/27",
   "totais": {
-    "montador": 1046668.05,
-    "liberador": 209333.63,
-    "vendedor": 628000.86,
-    "gerente": 523334.04,
+    "montador": 1056165.64,
+    "liberador": 211233.15,
+    "vendedor": 633699.41,
+    "gerente": 528082.84,
     "medidor": 87120.0,
-    "total": 2494456.54
+    "total": 2516301.01
   },
   "series": [
     {
@@ -131,7 +131,7 @@
     {
       "mes": "Dez/25",
       "contratos": 14,
-      "montador": 62317.0,
+      "montador": 62316.99,
       "liberador": 11800.08,
       "vendedor": 35400.25,
       "gerente": 29500.21,
@@ -219,7 +219,7 @@
     {
       "mes": "Ago/26",
       "contratos": 24,
-      "montador": 52745.62,
+      "montador": 52745.63,
       "liberador": 18744.57,
       "vendedor": 56233.71,
       "gerente": 46861.42,
@@ -240,24 +240,24 @@
     },
     {
       "mes": "Out/26",
-      "contratos": 15,
+      "contratos": 20,
       "montador": 67912.89,
       "liberador": 9117.45,
       "vendedor": 27352.36,
       "gerente": 22793.63,
       "medidor": 3960.0,
       "total": 131136.33,
-      "valorAssinado": 258289.47
+      "valorAssinado": 353265.41
     },
     {
       "mes": "Nov/26",
       "contratos": 0,
       "montador": 45833.62,
-      "liberador": 5165.79,
-      "vendedor": 15497.37,
-      "gerente": 12914.47,
+      "liberador": 7065.31,
+      "vendedor": 21195.92,
+      "gerente": 17663.27,
       "medidor": 3960.0,
-      "total": 83371.25,
+      "total": 95718.13,
       "valorAssinado": 0.0
     },
     {
@@ -274,27 +274,27 @@
     {
       "mes": "Jan/27",
       "contratos": 0,
-      "montador": 1933.36,
+      "montador": 11430.95,
       "liberador": 0.0,
       "vendedor": 0.0,
       "gerente": 0.0,
       "medidor": 3960.0,
-      "total": 5893.36,
+      "total": 15390.95,
       "valorAssinado": 0.0
     }
   ],
-  "totalEntregue": 8871062.74,
-  "numContratosEntrega": 344,
+  "totalEntregue": 8971038.68,
+  "numContratosEntrega": 350,
   "semPrevisaoEntrega": 58,
   "mesInicioEntrega": "Mai/25",
   "mesFimEntrega": "Nov/27",
   "totaisEntrega": {
-    "montador": 887106.28,
-    "liberador": 177421.25,
-    "vendedor": 532263.75,
-    "gerente": 443553.13,
+    "montador": 897103.88,
+    "liberador": 179420.77,
+    "vendedor": 538262.3,
+    "gerente": 448551.93,
     "medidor": 122760.0,
-    "total": 2163104.44
+    "total": 2186098.91
   },
   "seriesEntrega": [
     {
@@ -508,46 +508,46 @@
     },
     {
       "mes": "Dez/26",
-      "contratos": 23,
+      "contratos": 24,
       "montador": 93493.22,
       "liberador": 9722.92,
       "vendedor": 29168.75,
       "gerente": 24307.29,
       "medidor": 3960.0,
       "total": 160652.18,
-      "valorEntregue": 696418.97
+      "valorEntregue": 719418.97
     },
     {
       "mes": "Jan/27",
-      "contratos": 10,
+      "contratos": 15,
       "montador": 103631.03,
-      "liberador": 13928.38,
-      "vendedor": 41785.14,
-      "gerente": 34820.95,
+      "liberador": 14388.38,
+      "vendedor": 43165.14,
+      "gerente": 35970.95,
       "medidor": 3960.0,
-      "total": 198125.49,
-      "valorEntregue": 215173.59
+      "total": 201115.49,
+      "valorEntregue": 292149.53
     },
     {
       "mes": "Fev/27",
       "contratos": 7,
       "montador": 38157.43,
-      "liberador": 4303.47,
-      "vendedor": 12910.42,
-      "gerente": 10758.68,
+      "liberador": 5842.99,
+      "vendedor": 17528.97,
+      "gerente": 14607.48,
       "medidor": 3960.0,
-      "total": 70090.0,
+      "total": 80096.87,
       "valorEntregue": 215310.22
     },
     {
       "mes": "Mar/27",
       "contratos": 2,
-      "montador": 53010.04,
+      "montador": 63007.64,
       "liberador": 4306.2,
       "vendedor": 12918.61,
       "gerente": 10765.51,
       "medidor": 3960.0,
-      "total": 84960.37,
+      "total": 94957.97,
       "valorEntregue": 88749.58
     },
     {
