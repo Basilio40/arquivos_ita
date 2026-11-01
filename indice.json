@@ -45,72 +45,79 @@
     {
       "caminho": "xlsx/carteira_mensal/Abr_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Abr_2026.xlsx",
-      "bytes": 5938,
-      "modificado": "2026-10-29 08:17",
-      "sha256": "2b36f357b466c81e4abde0ca7cf47141af35092ce60100b2481fd0c9129c2339"
+      "bytes": 5936,
+      "modificado": "2026-11-01 08:18",
+      "sha256": "59e7c13eaebba1f3f7cfe6888cdc42b0dc81ca3437f3f3fc7368ad247d2af0d3"
     },
     {
       "caminho": "xlsx/carteira_mensal/Ago_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Ago_2026.xlsx",
       "bytes": 7049,
-      "modificado": "2026-10-29 08:20",
-      "sha256": "b99846a8de343063a3d486e0cd7129cbce8e154db8b859324d7df14b9e1cc97b"
+      "modificado": "2026-11-01 08:20",
+      "sha256": "88b8f068ae0ffa763d2f399d0858ce16f2e77af6356ae97e93ee082f972a105e"
     },
     {
       "caminho": "xlsx/carteira_mensal/Fev_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Fev_2026.xlsx",
       "bytes": 6753,
-      "modificado": "2026-10-29 08:16",
-      "sha256": "f0c2bdf0d6e4ac161185373a6748242f9ead8ccfb9c0331f40db7084b1a0558b"
+      "modificado": "2026-11-01 08:17",
+      "sha256": "8f898732dbe8580b41da2aaefcad472e419526b02fe810b9ea2b92285969b7ff"
     },
     {
       "caminho": "xlsx/carteira_mensal/Jan_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Jan_2026.xlsx",
       "bytes": 6864,
-      "modificado": "2026-10-29 08:16",
-      "sha256": "50791a0e5046801fb3fbbe585b784f73d58864731fa9e1078168c6a6d2417118"
+      "modificado": "2026-11-01 08:16",
+      "sha256": "913837c20be0ef024c57cd344515b82c039f07a22a7e8750d2ba454723b298d1"
     },
     {
       "caminho": "xlsx/carteira_mensal/Jul_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Jul_2026.xlsx",
       "bytes": 7051,
-      "modificado": "2026-10-29 08:19",
-      "sha256": "e7f0053f26e8fb5f0e4c2580405eb4e4f035ecb928d9f472d22ebd4596d6eeee"
+      "modificado": "2026-11-01 08:19",
+      "sha256": "85faa1e477c726a9a3e20dfd7994d69f6a0711604c5b83efbc49f40bdb2cd3e3"
     },
     {
       "caminho": "xlsx/carteira_mensal/Jun_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Jun_2026.xlsx",
-      "bytes": 6401,
-      "modificado": "2026-10-29 08:18",
-      "sha256": "9dec0c623ab33d9f5a7993893d9ffba73215318fd9389a8b807666712d6a9e57"
+      "bytes": 6399,
+      "modificado": "2026-11-01 08:19",
+      "sha256": "2b5c8858a3e401bf40b799500961faf598bb3487c04cfa6763293668402a5570"
     },
     {
       "caminho": "xlsx/carteira_mensal/Mai_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Mai_2026.xlsx",
       "bytes": 7122,
-      "modificado": "2026-10-29 08:18",
-      "sha256": "46d5b9de34d6698f04d16166dd9edf343785c6733ac798f71749f9d6f0b367d7"
+      "modificado": "2026-11-01 08:18",
+      "sha256": "17df55e237c500730ee038b6785f7dd1a6994a7e5b4cbbfb3dfd5094877ddd9c"
     },
     {
       "caminho": "xlsx/carteira_mensal/Mar_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Mar_2026.xlsx",
       "bytes": 6806,
-      "modificado": "2026-10-29 08:17",
-      "sha256": "8e36c98dda4ea412580fa95256e8a10ec8d412976f86a21b5aa1bb5cb8eba29b"
+      "modificado": "2026-11-01 08:17",
+      "sha256": "352489af7426c38e83bdb560bb827b8dfda799b11f0ae11a113fea2f5c147d8d"
+    },
+    {
+      "caminho": "xlsx/carteira_mensal/Nov_2026.xlsx",
+      "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Nov_2026.xlsx",
+      "bytes": 4659,
+      "modificado": "2026-11-01 08:22",
+      "sha256": "c97f35ffd75778ae2169b4748f2517018981cb276c9b8a30c3675a2a99f43825"
     },
     {
       "caminho": "xlsx/carteira_mensal/Out_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Out_2026.xlsx",
-      "bytes": 6149,
-      "modificado": "2026-10-29 08:21",
-      "sha256": "698e6e0ef906535d692a88624edd24d1428eb2c724245f3243c604a3fa0946b3"
+      "bytes": 6666,
+      "modificado": "2026-11-01 08:21",
+      "sha256": "d629b612005eeb275c5c3b5f284b081e030b8ff6b20e819ca27f5c4a0021a56f"
     },
     {
       "caminho": "xlsx/carteira_mensal/Set_2026.xlsx",
       "origem": "loja_18314_MOEMA/relatorios_carteira_mensal/Set_2026.xlsx",
       "bytes": 6607,
-      "modificado": "2026-10-29 08:20",
-      "sha256": "4794dc5cd2d9c0eee43fa2f3f58998ea4803efb4401badbf866909c5e9ffc22e"
+      "modificado": "2026-11-01 08:20",
+      "sha256": "a35394ac2127479b14acc470cd52a14946b0cf45a0cd97b4bbb42aa2bbdbf3b4"
     },
     {
       "caminho": "xlsx/contratos/SET_2026.xlsx",
@@ -121,80 +128,87 @@
     },
     {
       "caminho": "xlsx/contratos/latest.xlsx",
-      "origem": "loja_18314_MOEMA_CONTRATOS/relatorios_focco/Contratose0de0dae010847f5bcafc3586b0cefaf.xlsx",
-      "bytes": 34770,
-      "modificado": "2026-10-29 08:00",
-      "sha256": "d96005d41ce0e25c0f986885b2151c99ad93d0ea4c072b621299ed7464f7f74c"
+      "origem": "loja_18314_MOEMA_CONTRATOS/relatorios_focco/Contratos9c6979831c2d42d7982f04f64b8f510c.xlsx",
+      "bytes": 35233,
+      "modificado": "2026-11-01 08:00",
+      "sha256": "6c1233ceb2283a96c5572746276cc4a51c29f7cf7aba1e2fa00faea8ba227156"
     },
     {
       "caminho": "xlsx/dre/DRE_01_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_01_2026.xlsx",
-      "bytes": 46183,
-      "modificado": "2026-10-29 08:03",
-      "sha256": "1bd6336fd80afd01f7e7478556f53dc56d17a7cc2d1f49605495d89b339c9c62"
+      "bytes": 46161,
+      "modificado": "2026-11-01 08:03",
+      "sha256": "d66cd90f188809606bb1c41abc6fb752c54e7d891e987951fd24f83ca2d61cd5"
     },
     {
       "caminho": "xlsx/dre/DRE_02_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_02_2026.xlsx",
-      "bytes": 42623,
-      "modificado": "2026-10-29 08:04",
-      "sha256": "e5ac8dfa7b99f1eb3c5e06f879a38867e1cbb18a620906f74650145202652708"
+      "bytes": 42648,
+      "modificado": "2026-11-01 08:04",
+      "sha256": "aa3ffa621cb27896222ed34da4351ec6d6f967f0ec95cc03f4eedb10967e3e61"
     },
     {
       "caminho": "xlsx/dre/DRE_03_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_03_2026.xlsx",
-      "bytes": 44830,
-      "modificado": "2026-10-29 08:05",
-      "sha256": "35edce508fbea3a4891a04821a8232ed65d7ea17a269a6f367df3696cb42990f"
+      "bytes": 44833,
+      "modificado": "2026-11-01 08:05",
+      "sha256": "c1380d2d28df646fd4dd4076761428080bda7bd74ff483646f71b042875d44b8"
     },
     {
       "caminho": "xlsx/dre/DRE_04_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_04_2026.xlsx",
-      "bytes": 37025,
-      "modificado": "2026-10-29 08:06",
-      "sha256": "2713a0a70cbb86578cfde7e75050d63d088534820b76387519c4c493a1e34190"
+      "bytes": 37046,
+      "modificado": "2026-11-01 08:06",
+      "sha256": "ea19f101acabb5b725348b27f9a121675a46447f1d909e0e6149e4bd6d50864e"
     },
     {
       "caminho": "xlsx/dre/DRE_05_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_05_2026.xlsx",
-      "bytes": 41501,
-      "modificado": "2026-10-29 08:07",
-      "sha256": "957c87e82665dbea7f6e4ba1dacff796bde06a5915dd7382108e294c8f16b0c8"
+      "bytes": 41522,
+      "modificado": "2026-11-01 08:07",
+      "sha256": "4b9578c0b863aed5a1cbd4452e5969a206777ffb3b9072e292608df599e41da6"
     },
     {
       "caminho": "xlsx/dre/DRE_06_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_06_2026.xlsx",
-      "bytes": 35162,
-      "modificado": "2026-10-29 08:09",
-      "sha256": "746908ad036dc0b0552a7c88c705da488a4721453613bba0ffb6da1bdf379e7d"
+      "bytes": 35264,
+      "modificado": "2026-11-01 08:08",
+      "sha256": "d4871b8117ff48e8193270a517b79c39a5c601f739afa9abe0949a73279c0a8a"
     },
     {
       "caminho": "xlsx/dre/DRE_07_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_07_2026.xlsx",
-      "bytes": 47014,
-      "modificado": "2026-10-29 08:10",
-      "sha256": "a3405e5ac390695f6ad73d0f85e8b729e38b2ac753ab0ed3649592e2227a14de"
+      "bytes": 47020,
+      "modificado": "2026-11-01 08:09",
+      "sha256": "67bb4ed8969909ebb3ec4d84d3ffec485787cb1d76983fdea52d5ddac1c62fab"
     },
     {
       "caminho": "xlsx/dre/DRE_08_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_08_2026.xlsx",
-      "bytes": 38566,
-      "modificado": "2026-10-29 08:11",
-      "sha256": "bcb0d7e57382ebe9525be845a10f7d959d3c8a74b1fd5dc9e77ea39a636113aa"
+      "bytes": 38648,
+      "modificado": "2026-11-01 08:10",
+      "sha256": "afb13de8da0ec11d972ca871cca9dc8526b280851586a3a0852f3dd7db06cd2a"
     },
     {
       "caminho": "xlsx/dre/DRE_09_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_09_2026.xlsx",
-      "bytes": 36292,
-      "modificado": "2026-10-29 08:12",
-      "sha256": "82f9c9ebebf851aed8b4b74f32d061fdec64e2278e0d74910dab88f1f4cbc031"
+      "bytes": 36383,
+      "modificado": "2026-11-01 08:11",
+      "sha256": "5632e7cd88ba965129455d707cb337a0a4a0ff429b6322175940d655f6807a37"
     },
     {
       "caminho": "xlsx/dre/DRE_10_2026.xlsx",
       "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_10_2026.xlsx",
-      "bytes": 29967,
-      "modificado": "2026-10-29 08:13",
-      "sha256": "f06c30f8e571087dc8bcd47b34fbebe252ff8dfbb91825bb6b73400493a5fc6b"
+      "bytes": 37525,
+      "modificado": "2026-11-01 08:12",
+      "sha256": "d2adaca49197e10cbd4c0ea1f89bd832ae1386cddc225049249b1d421c8f3b7f"
+    },
+    {
+      "caminho": "xlsx/dre/DRE_11_2026.xlsx",
+      "origem": "loja_18314_MOEMA_FIN/relatorios_focco/DRE_11_2026.xlsx",
+      "bytes": 14892,
+      "modificado": "2026-11-01 08:14",
+      "sha256": "ec5994869c5cc363c28b81431aa47b2727c4f10283981ae3cd5b1dfc3c1b690f"
     },
     {
       "caminho": "xlsx/fluxo_caixa/previsao/Previsao_Abr_2026.xlsx",
@@ -227,9 +241,9 @@
     {
       "caminho": "xlsx/fluxo_caixa/previsao/Previsao_Dez_2026.xlsx",
       "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/previsao/Previsao_Dez_2026.xlsx",
-      "bytes": 7060,
-      "modificado": "2026-10-29 08:14",
-      "sha256": "71798a86d9cb313722f8fd4fcebed02c00d4e45d0f2cec50e42cdfd9a71cc11e"
+      "bytes": 7411,
+      "modificado": "2026-11-01 08:15",
+      "sha256": "de7633e2df77fe763228e8319699ab308cfcbbc0f25c1aff5cfef66fd10ea5f1"
     },
     {
       "caminho": "xlsx/fluxo_caixa/previsao/Previsao_Fev_2026.xlsx",
@@ -318,9 +332,9 @@
     {
       "caminho": "xlsx/fluxo_caixa/previsao/Previsao_Nov_2026.xlsx",
       "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/previsao/Previsao_Nov_2026.xlsx",
-      "bytes": 7009,
-      "modificado": "2026-10-12 09:27",
-      "sha256": "051df2d740da18675952495dde98725931d6b33d71dd25678f7852a43d325be6"
+      "bytes": 10088,
+      "modificado": "2026-11-01 08:15",
+      "sha256": "db0298c868d791aac958214457933b8665ce1bda975ecd70625d2442b462cc72"
     },
     {
       "caminho": "xlsx/fluxo_caixa/previsao/Previsao_Out_2026.xlsx",
@@ -888,6 +902,13 @@
       "bytes": 23424,
       "modificado": "2026-10-11 08:19",
       "sha256": "3d32032907bdaeb8d70646b89665a3294127bbc7bacbf1003bd5902aca4330cb"
+    },
+    {
+      "caminho": "xlsx/fluxo_caixa/realizado/Realizado_Nov_2026.xlsx",
+      "origem": "loja_18314_FLUXO_DE_CAIXA/relatorios_fluxo_caixa/realizado/Realizado_Nov_2026.xlsx",
+      "bytes": 4050,
+      "modificado": "2026-11-01 08:15",
+      "sha256": "bb0e933ef66defef6cac00242059dc1e61f9b9a70ae8c3b8f720656c64959d0b"
     },
     {
       "caminho": "xlsx/fluxo_caixa/realizado/Realizado_Out_2026.xlsx",
